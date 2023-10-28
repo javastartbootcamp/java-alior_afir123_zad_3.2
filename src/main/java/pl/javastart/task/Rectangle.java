@@ -8,4 +8,8 @@ public class Rectangle {
         this.length = length;
         this.width = width;
     }
+
+    public double calculateRectPerimeter() {
+        return 2 * width + 2 * length;
+    }
 }

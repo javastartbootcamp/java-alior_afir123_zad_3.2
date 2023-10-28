@@ -6,4 +6,9 @@ public class Square {
     public Square(int length) {
         this.length = length;
     }
+
+    public double calculateSquareArea() {
+
+        return Math.pow(length, 2);
+    }
 }

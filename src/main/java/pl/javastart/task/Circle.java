@@ -5,6 +5,10 @@ public class Circle {
 
     public Circle(int radius) {
         this.radius = radius;
+    }
 
+    public double calculateCircleArea() {
+
+        return Math.PI * Math.pow(radius, 2);
     }
 }
